@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MiNiM</title>
+
+  <!-- Bootstrap cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--FAV-icon-->
+  <link rel="icon" href="img/logo.gif">
+
+  <!--Font-Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/svg-with-js.min.css" integrity="sha512-kykcz2VnxuCLnfiymkPqtsNceqEghEDiHWWYMa/nOwdutxeFGZsUi1+TEWT4MyesfxybNGpJNCVXzEPXSO8aKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Jquery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  
+</head>
+<body>
+
+
+<!--Navbar section-->
+<header>
+<nav class="menu navbar navbar-expand-lg  navbar-light fixed-top">
+  <div class="container-fluid">
+    <a href="" class="logo">
+      <img class="navbar-brand" src="img/logo.gif" alt="logo" style="color:#13005A"/>MiNiM</a>
+    <button class="navbar-toggler btn-block" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon" id="bar" onclick="nav()"></span>
+    </button>
+    <div class=" collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav" id="bar1">
+        <li class="nav-item">
+          <a class="nav-link" href="#demo">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">PRODUCTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#review">REVIEW</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<!-- Navbar ends -->
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/C_kitty.jpg" alt="kitty" class="d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="img/C_police.jpg" alt="police" class="d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="img/C_toy.jpg" alt="toy" class="d-block">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Products section starts-->
+
+<div class="container mt-3" id="products">
+  <h2 class="mt-5 headings">Our <span class="headstyle"> Products </span></h2>
+<div class="row mt-5 px-4 pb-5 list g-3">
+  <div class="items col-12 col-md-6 col-lg-4 mt-5">
+  <div class="card box" style="width:400px">
+    <img class="card-img-top img-thumbnail" src="img/chess.jpg" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title td-flex justify-content-center">₹250. (5% off)</h4>
+      <p class="card-text">The object of the game is to checkmate (threaten with inescapable capture) the opponent's king.</p>
+      <a href="#" class="btn">order now</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="items col-12 col-md-6 col-lg-4 mt-5">
+  <div class="card box" style="width:400px">
+    <img class="card-img-top img-thumbnail" src="img/car.jpg" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title d-flex justify-content-center">₹450. (15% off)</h4>
+      <p class="card-text">A model car, or toy car, is a miniature representation of an automobile.</p>
+      <a href="#" class="btn">order now</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="items col-12 col-md-6 col-lg-4 mt-5">
+  <div class="card box" style="width:400px ">
+    <img class="card-img-top img-thumbnail" src="img/bg.jpg" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title d-flex justify-content-center">₹599. (6% off)</h4>
+      <p class="card-text">A doll is a toy that looks like a small person, often a baby. When kids play with dolls.</p>
+      <a href="#" class="btn">order now</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="items col-12 col-md-6 col-lg-4 mt-5">
+  <div class="card box" style="width:400px">
+    <img class="card-img-top img-thumbnail" src="img/home.jpg" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title d-flex justify-content-center">1259. (15% off)</h4>
+      <p class="card-text">Materials for miniature building include Gatorfoam, sheet styrene and MDF.</p>
+      <a href="#" class="btn">order now</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="items col-12 col-md-6 col-lg-4 mt-5">
+  <div class="card box" style="width:400px">
+    <img class="card-img-top img-thumbnail" src="img/table.jpg" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title d-flex justify-content-center">₹2150. (5% off)</h4>
+      <p class="card-text">These table and chairs may suit more for an outdoor picnic table it can be made to feel indoor</p>
+      <a href="#" class="btn">order now</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="items col-12 col-md-6 col-lg-4 mt-5">
+  <div class="card box" style="width:400px">
+    <img class="card-img-top img-thumbnail" src="img/ppl.jpg" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title d-flex justify-content-center">₹569. (9% off)</h4>
+      <p class="card-text">A secret family of four-inch people living inside the walls of a house must save their home from an evil.</p>
+      <a href="#" class="btn">order now</a>
+    </div>
+  </div>
+  </div>
+
+</div>
+</div>
+<!-- products section ends -->
+
+<!-- Reviews section starts -->
+
+<section class="review mt-5" id="review">
+  
+<h1 class="headings client"> Our Client <span class="headstyle clients">Reviews</span> </h1>
+<!-- ps-4 -->
+<div class="reviewOuter container main py-1  mt-5">
+<div class="reviewInner row">
+
+  <div class="content col-12 col-md-6 col-lg-4">
+  <div class="outer col-12 col-md-6 col-lg-4">
+    <div class="inner">
+      <div class="profile">
+        <img src="img/1.png" alt="customers">
+      </div>
+      <div class="customer">
+        <span class="name">Praveen</span>
+        <span class="text">Unique and good products</span>
+      </div>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content col-12 col-md-6 col-lg-4">
+  <div class="outer col-12 col-md-6 col-lg-4">
+    <div class="inner">
+      <div class="profile">
+        <img src="img/2.png" alt="customers">
+      </div>
+      <div class="customer">
+        <span class="name">Naran</span>
+        <span class="text">collections are nice</span>
+      </div>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content col-12 col-md-6 col-lg-4">
+  <div class="outer col-12 col-md-6 col-lg-4">
+    <div class="inner">
+      <div class="profile">
+        <img src="img/3.jpg" alt="customers">
+      </div>
+      <div class="customer">
+        <span class="name">Karthick</span>
+        <span class="text">Quality is Awesome</span>
+      </div>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content col-12 col-md-6 col-lg-4">
+  <div class="outer col-12 col-md-6 col-lg-4">
+    <div class="inner">
+      <div class="profile">
+        <img src="img/4.png" alt="customers">
+      </div>
+      <div class="customer">
+        <span class="name">Meena</span>
+        <span class="text">I loved the products</span>
+      </div>
+      <div class="rating">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+</section>
+
+<!-- Reviews section starts -->
+
+<!-- Contact section starts -->
+
+<section class="container contact mt-5" id="contact">
+
+  <h1 class="headings"> Contact <span class="headstyle">Us</span> </h1>
+
+
+<div class="container feedback mt-5">
+
+  <h2 class="mt-3 d-flex justify-content-center" style="color:#13005A">Send a Message</h2>
+
+  <form action="/action_page.php" class="mt-5">
+    <label for="name" style="color:#13005A">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name.." class="msgbox">
+
+    <label for="email" style="color:#13005A">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="eg@gmail.com" class="msgbox">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">UK</option>
+      <option value="usa">Japan</option>
+      <option value="usa">China</option>
+      <option value="usa">Switzerland</option>
+      <option value="usa">Australia</option>
+      <option value="usa">Italy</option>
+      <option value="usa">South Africa</option>
+
+    </select>
+
+    <label for="comments" style="color:#13005A">Comments</label>
+    <textarea id="comments" name="comments" placeholder="Write something.." style="height:200px" class="msgbox"></textarea>
+
+    <button type="submit" class="btn mt-4 px-5 send">Send</button>
+  </form>
+
+  <div class="d-flex justify-content-center mt-5">
+    <p class="mail" data-tooltip="globalsourcing@minim.com"> <i class="icon fa-solid fa-envelopes-bulk" id="con2"></i><pre class="tooltiptext"> globalsourcing@minim.com</pre></p>
+    <p class="mail" data-tooltip="400-700-5559"> <i class="icon fa-solid fa-phone-volume"></i><pre class="tooltiptext"> 400-700-5559</pre></p>
+  </div>
+  <p class="text-center mt-2">
+      <i class="icons fa-brands fa-facebook"></i>
+      <i class="icons fa-brands fa-instagram"></i>
+      <i class="icons fa-brands fa-twitter"></i>
+      <i class="icons fa-brands fa-linkedin-in"></i>
+    </p>
+</div>
+
+
+
+
+<!-- Contact section ends -->
+<br/><br/>
+
+<!-- copyrights section starts -->
+<hr style="border: 1px solid #413F42;"/>
+<div class="container mt-1 text-center">
+  <h5 class="mb-5 p-2" style="font-size: 15px; color: #13005A;"> © COPYRIGHT 2023 <span> Savithri </span> | All Rights Reserved! </h5>
+</div>
+
+<!-- copyrights section starts -->
+
+<script type="text/javascript">
+  
+$(window).on("orientationchange load resize", function () {
+     var width = $(document).width();
+     if(width<991){
+    $(document).ready(function(){
+       $(".nav-link").click(function(){
+       $(".navbar-nav").hide();
+     })
+    })
+  }
+     else if(width>992){
+              $(".navbar-nav").show();
+     }
+});  
+
+function nav()
+{
+  $(document).ready(function(){
+      $("#bar").click(function(){
+      $("#bar1").show();
+      })
+  }) 
+  
+}
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
